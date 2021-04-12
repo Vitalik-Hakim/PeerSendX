@@ -1,0 +1,9 @@
+Building PeerSendX
+
+See doc/readme-qt.rst for instructions on building PeerSendX-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of PeerSendX.
+
+See doc/build-*.txt for instructions on building peersendxd,
+the intended-for-services, no-graphical-interface, reference
+implementation of PeerSendX.
