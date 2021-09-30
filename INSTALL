@@ -4,6 +4,6 @@ See doc/readme-qt.rst for instructions on building PeerSendX-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
 implementation of PeerSendX.
 
-See doc/build-*.txt for instructions on building peersendxd,
+See doc/build-*.txt for instructions on building peersendxd daemon,
 the intended-for-services, no-graphical-interface, reference
 implementation of PeerSendX.
