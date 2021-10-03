@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Test block generation and basic wallet sending
+# Testing the block generation and the basic wallet sending
 
 if [ $# -lt 1 ]; then
         echo "Usage: $0 path_to_binaries"
@@ -18,7 +18,7 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 
 D=$(mktemp -d test.XXXXX)
 
-# Two nodes; one will play the part of merchant, the
+# Two nodes; one will play the part of merchant, the other the reciever
 # other an evil transaction-mutating miner.
 
 D1=${D}/node1
@@ -35,7 +35,7 @@ B2PID=$!
 
 trap "kill -9 $B1PID $B2PID; rm -rf $D" EXIT
 
-# Wait until all four nodes are at the same block number
+# Wait until all four nodes are at the same block number (fully synced)
 function WaitBlocks {
     while :
     do
