@@ -1,9 +1,11 @@
-PeerSendX 
-================================
-
+## PeerSendX 
 Copyright (c) 2009-2014 Bitcoin Developers
+----------------
 Copyright (c) 2009-2014 Litecoin Developers
-Copyright (c) 2020-2021 PeerSendX Developer :)
+----------------
+Copyright (c) 2020-2021 PeerSendX Developer :) 
+----------------
+
 
 What is PeerSendX?
 ----------------
