@@ -1,3 +1,6 @@
+- name: Lines of Code Badge
+  uses: shadowmoose/GHA-LoC-Badge@1.0.0
+
 ## PeerSendX 
 
 
