@@ -1,5 +1,6 @@
-- name: Lines of Code Badge
-  uses: shadowmoose/GHA-LoC-Badge@1.0.0
+# ![Generated Button](https://raw.githubusercontent.com/shadowmoose/GHA-LoC-Badge/image-data/badge.svg)
+Count project Lines of Code & generate a badge for display.
+
 
 ## PeerSendX 
 
